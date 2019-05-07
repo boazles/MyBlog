@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/boaz/Documents/MyBlog/MyBlog/MyBlog.csproj": {}
+  },
+  "projects": {
+    "/home/boaz/Documents/MyBlog/MyBlog/MyBlog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/boaz/Documents/MyBlog/MyBlog/MyBlog.csproj",
+        "projectName": "MyBlog",
+        "projectPath": "/home/boaz/Documents/MyBlog/MyBlog/MyBlog.csproj",
+        "packagesPath": "/home/boaz/.nuget/packages/",
+        "outputPath": "/home/boaz/Documents/MyBlog/MyBlog/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/boaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
